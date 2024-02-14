@@ -1,0 +1,155 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+11:13:39.344 [main] INFO com.example.demo.DemoApplication - Starting DemoApplication using Java 17.0.4 on carlos-System-Product-Name with PID 10986 (/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar started by carlos in /home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar)
+11:13:39.345 [main] DEBUG com.example.demo.DemoApplication - Running with Spring Boot, Spring
+11:13:39.346 [main] INFO com.example.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+11:13:39.346 [main] DEBUG org.springframework.boot.SpringApplication - Loading source class com.example.demo.DemoApplication
+11:13:39.379 [main] DEBUG org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@530612ba
+11:13:39.383 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+11:13:39.416 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/CategoriaServices.class]
+11:13:39.416 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/ProductoServices.class]
+11:13:39.417 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/PoliticaServices.class]
+11:13:39.418 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/CaracteristicaServices.class]
+11:13:39.418 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/CiudadServices.class]
+11:13:39.418 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/UsuarioServices.class]
+11:13:39.419 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/ImagenServices.class]
+11:13:39.419 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/ReservaServices.class]
+11:13:39.419 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/UserDetailsServicesImpl.class]
+11:13:39.419 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/jwt/JwtRequestFilter.class]
+11:13:39.419 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/jwt/JwtUtil.class]
+11:13:39.424 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/jwt/SecurityConfiguration.class]
+11:13:39.438 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/ProductoController.class]
+11:13:39.439 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/ImagenController.class]
+11:13:39.439 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/AuthenticationController.class]
+11:13:39.440 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/PoliticaController.class]
+11:13:39.440 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/UsuarioController.class]
+11:13:39.441 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/CategoriaController.class]
+11:13:39.441 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/CaracteristicaController.class]
+11:13:39.441 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/controller/CiudadController.class]
+11:13:39.443 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IUsuarioRepository.class]
+11:13:39.443 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/ICaracteristicaRepository.class]
+11:13:39.443 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/ICiudadRepository.class]
+11:13:39.443 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IReservaRepository.class]
+11:13:39.444 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IProductoRepository.class]
+11:13:39.444 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/ICategoriaRepository.class]
+11:13:39.444 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IImagenRepository.class]
+11:13:39.444 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Ignored because not a concrete top-level class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IPoliticaRepository.class]
+11:13:39.445 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/exceptions/GlobalExceptions.class]
+11:13:39.730 [main] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:13:39.734 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+11:13:39.734 [main] DEBUG org.springframework.boot.autoconfigure.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'com.example.demo'. Automatic @Repository and @Entity scanning is enabled.
+11:13:39.735 [main] DEBUG org.springframework.data.repository.config.RepositoryConfigurationDelegate - Scanning for JPA repositories in packages com.example.demo.
+11:13:39.743 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IUsuarioRepository.class]
+11:13:39.743 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/ICaracteristicaRepository.class]
+11:13:39.743 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/ICiudadRepository.class]
+11:13:39.743 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IReservaRepository.class]
+11:13:39.743 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IProductoRepository.class]
+11:13:39.743 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/ICategoriaRepository.class]
+11:13:39.744 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IImagenRepository.class]
+11:13:39.744 [main] DEBUG org.springframework.data.repository.config.RepositoryComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/repository/IPoliticaRepository.class]
+11:13:39.765 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: URL [jar:file:/home/carlos/IdeaProjects/projecto_integrador/backend/out/artifacts/demo_jar/demo.jar!/com/example/demo/services/UserDetailsServicesImpl.class]
+11:13:39.773 [main] INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 8 JPA repository interfaces.
+11:13:39.843 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+11:13:39.846 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+11:13:39.846 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+11:13:39.850 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+11:13:39.850 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conversionServicePostProcessor'
+11:13:39.866 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+11:13:39.867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+11:13:39.867 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+11:13:39.870 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+11:13:39.870 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+11:13:39.871 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+11:13:39.872 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+11:13:39.872 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+11:13:39.872 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+11:13:39.873 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+11:13:39.894 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+11:13:39.902 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+11:13:39.903 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+11:13:39.904 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+11:13:39.904 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+11:13:39.905 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+11:13:39.905 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+11:13:39.924 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+11:13:39.926 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+11:13:39.927 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+11:13:39.929 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+11:13:39.929 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+11:13:39.939 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'entityManagerFactory'
+11:13:39.939 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+11:13:39.940 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+11:13:39.940 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+11:13:39.940 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+11:13:39.941 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+11:13:39.956 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'dataSource' via factory method to bean named 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'
+11:13:39.956 [main] WARN org.springframework.context.annotation.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+11:13:39.959 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 41 common frames omitted
+Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:182)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:123)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:48)
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 42 common frames omitted
